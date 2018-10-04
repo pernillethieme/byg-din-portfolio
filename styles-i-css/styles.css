@@ -1,3 +1,162 @@
 @charset "UTF-8";
 /* CSS Document */
 
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/*menu og navigation */
+#navigation {
+	
+	padding: 0px;
+	margin: 20px;
+	margin-top: 30px;
+	float: right;
+}
+
+#navigation li{
+	list-style: none;
+	display: inline;
+	/* inline betyder at "blokken" kun fylder ordet eller teksten*/
+}
+
+#navigation a{
+	margin: 0 15px 0 15px;
+	font-size: 25px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px 5px 20px;/*rækkefølge: top, højre, bund, venstre*/
+	background: #08576D;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+#navigation a:hover {
+	background:#65888F;
+}
+
+#navigation a:first-of-type {
+	margin-left: 0;
+}
+
+/*nu kommer indholdet nedenunder*/
+#header {
+	width:100%;
+	height:100px;
+	background: #08576D;
+	
+}
+	#logo{
+		height: 120px;
+		width: 120px;
+		margin-left: 40px;
+	}
+
+
+#white-header{
+	width: 100%;
+	height: 35px;
+	color: #08576D;
+	margin-left: 160px;
+	font-family:arial, verdana;
+}
+
+	a:link {
+   		color: #08576D; 
+    	background-color: transparent; 
+    	text-decoration: none;
+	}
+
+	a:visited {
+    	color: #08576D;
+    	background-color: transparent;
+    	text-decoration: none;
+	}
+
+	a:hover {
+    	color:ghostwhite
+    	background-color: transparent;
+    	text-decoration: underline;
+	}
+
+	a:active {
+   		color: #08576D;
+    	background-color: transparent;
+    	text-decoration: none;
+	}
+
+
+
+#main{
+	width: 100%;
+	min-height: calc(100vh - 215px) ;
+	background-color: #08576D;
+	display:flex;
+	justify-content: space-between;
+}
+
+		#text{
+		
+			padding: 20px;
+			padding-left: 40px;
+			width: 40%;
+			height: 330px;
+			font-family:arial, verdana;
+			color: white;
+			}
+
+		#portfolio-punkter a{
+			font-size: 15px;
+			font-family: arial, sans-serif;
+			text-decoration: none;
+			color: white;
+			padding: 5px 20px 5px 20px;/*rækkefølge: top, højre, bund, venstre*/
+			background: #08576D;
+			display: inline-block;
+			width: 40%;
+			}
+		#spejderlink{
+			font-size: 15px;
+			font-family: arial, sans-serif;
+			text-decoration: none;
+			color: white;
+			padding: 5px 20px 5px 20px;/*rækkefølge: top, højre, bund, venstre*/
+			background: #08576D;
+			display: inline-block;
+			width: 40%;
+			}
+		
+
+
+		#image-box{
+		
+			width: 60%;
+			min-height: calc(100vh - 215px) ;
+			}
+
+		.imagestor{
+			width: 100%;	
+			}
+
+
+
+#white-footer{
+	width: 100%;
+	height: 30px;
+}
+
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #08576D;
+	text-align: left;
+	color: white;
+	padding-left:40px;
+	padding-top: 30px;
+	font-family: arial, sans-serif;
+}
+
